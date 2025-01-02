@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Parking
+    </title>
+    <link rel="stylesheet" href="../Bike-Parking-Manager/style.css">
+</head>
+<body>
+<div id="gp">
+    <div id="child">
+        <label for="input" class="cl">USER NAME :</label>
+        <input type="text" name="username" id="input" class="in" placeholder="Enter your name">
+        
+        <label for="bikeno" class="cl">BIKE.NO :</label>
+        <input type="text" id="bikeno" class="in" placeholder="Enter your Bike Number">
+        
+        <label for="checkin" class="cl">CHECK-IN :</label>
+        <input type="date" id="checkin" class="in">
+       
+        <label for="checkout" class="cl">CHECK-OUT :</label>
+        <input type="date" name="checkout" id="checkout" class="in">
+        <br>
+        <button type="submit" id="submit">SUBMIT</button>
+        
+    </div><hr>
+    <div id="result">
+     <table id="table">
+        <thead id="thead">
+            <tr>
+                <th>S.NO </th>
+                <th>USER NAME </th>
+                <th>BIKE.NO </th>
+                <th>CHECK-IN </th>
+                <th>CHECK-OUT </th>
+                <TH>REMOVE </TH>
+            </tr>
+        </thead>
+       <tbody id="tbody"></tbody> 
+      </table>
+    </div>
+</div>
+    <script src="../Bike-Parking-Manager/script.js"></script>
+</body>
+</html>
